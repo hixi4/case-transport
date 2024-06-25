@@ -2,12 +2,6 @@ package transport
 
 import "fmt"
 
-// PublicTransport інтерфейс для транспортних засобів
-type PublicTransport interface {
-	BoardPassengers()
-	UnboardPassengers()
-}
-
 // Bus структура для автобуса
 type Bus struct{}
 
