@@ -29,3 +29,9 @@ func (r *Route) Travel() {
 		vehicle.UnboardPassengers()
 	}
 }
+
+// PublicTransport інтерфейс для транспортних засобів
+type PublicTransport interface {
+	BoardPassengers()
+	UnboardPassengers()
+}
